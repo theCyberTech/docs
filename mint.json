@@ -53,7 +53,7 @@
       "group": "Get Started",
       "pages": [
         "Overview",
-        "Installing crewAI",
+        "Installing-crewAI",
         "quickstart",
         "development"
       ]
