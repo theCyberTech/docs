@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: 'Welcome to the home of your new documentation'
+title: Installing crewAI
+description: 'Installation instructions for crewAI'
 ---
 
 <img
@@ -14,26 +14,30 @@ description: 'Welcome to the home of your new documentation'
   alt="Hero Dark"
 />
 
-## Setting up
+## Installing via pip
 
-The first step to world-class documentation is setting up your editing environments.
+You can install crewAI using pip.
+```bash
+pip install crewai
+```
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+## Installing via source
+
+You can also install crewAI from source.
+
+```bash
+git clone https://github.com/joaomdmoura/crewAI.git
+cd crewAI
+pip install -e .
+```
+
+## Installing via Poetry
+
+You can also install crewAI using Poetry.
+
+```bash
+poetry add crewai
+```
 
 ## Make it yours
 
