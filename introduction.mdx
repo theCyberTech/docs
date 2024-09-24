@@ -3,22 +3,16 @@ title: Installing crewAI
 description: 'Installation instructions for crewAI'
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
-
 ## Installing via pip
 
 You can install crewAI using pip.
 ```bash
 pip install crewai
+```
+and
+
+```bash
+pip install crewai-tools
 ```
 
 ## Installing via source
@@ -26,8 +20,16 @@ pip install crewai
 You can also install crewAI from source.
 
 ```bash
-git clone https://github.com/joaomdmoura/crewAI.git
+git clone https://github.com/crewAIInc/crewAI.git
 cd crewAI
+pip install -e .
+```
+
+and
+
+```bash
+git clone https://github.com/crewAIInc/crewAI-tools.git
+cd crewAI-tools
 pip install -e .
 ```
 
@@ -37,6 +39,12 @@ You can also install crewAI using Poetry.
 
 ```bash
 poetry add crewai
+  ```
+
+and
+
+```bash
+poetry add crewai-tools
 ```
 
 ## Make it yours
