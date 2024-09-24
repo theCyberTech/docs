@@ -20,7 +20,7 @@
       "group": "Get Started",
       "pages": [
         "Overview",
-        "Installing crewAI",
+        "Installation",
         "quickstart",
         "development"
       ]
